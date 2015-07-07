@@ -4,11 +4,11 @@ Es necesario dar de alta la aplicación en Twitter Apps (https://apps.twitter.co
 
 Se ha programado la ejecución del script cada hora, utilizando el administrador de procesos cron de Linux. Lo único necesario es editar el crontab y añadir la tarea que queremos automatizar.
 
-crontab -e
+*crontab -e*
 
 Y añadir la siguiente línea:
 
-0 * * * * /*ruta del ejecutable de python*/ /*ruta del script*/
+0 * * * * *ruta del ejecutable de python* *ruta del script*
 
 Por ejemplo:
 
