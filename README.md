@@ -8,7 +8,7 @@ Se ha programado la ejecución del script cada hora, utilizando el administrador
 
 Y añadir la siguiente línea:
 
-0 * * * * *ruta del ejecutable de python* *ruta del script*
+0 * * * * *ruta_de_python* *ruta_del_script*
 
 Por ejemplo:
 
