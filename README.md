@@ -1,4 +1,4 @@
-Para realizar este pequeño proyecto se ha utilizado Tweepy (http://www.tweepy.org), una librería de Python para acceder al api de Twitter.
+Para realizar este pequeño proyecto se ha utilizado Tweepy (http://www.tweepy.org), una librería de Python para acceder al API de Twitter.
 
 Es necesario dar de alta la aplicación en Twitter Apps (https://apps.twitter.com), para obtener las keys necesarias para modificarlas en el código fuente.
 
@@ -8,7 +8,11 @@ crontab -e
 
 Y añadir la siguiente línea:
 
-0 * * * * /usr/bin/python /*ruta del script*/pidecimal.py
+0 * * * * /*ruta del ejecutable de python*/ /*ruta del script*/
+
+Por ejemplo:
+
+0 * * * * /usr/bin/python /home/usuario/pidecimal.py
 
 Esto ejecutará el programa cada hora en punto. Más información sobre cron y crontab:
 
