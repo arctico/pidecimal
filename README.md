@@ -17,3 +17,9 @@ Por ejemplo:
 Esto ejecutará el programa cada hora en punto. Más información sobre cron y crontab:
 
 https://help.ubuntu.com/community/CronHowto
+
+El programa está funcionando sobre un VPS y publicando decimales en la cuenta de Twitter:
+
+http://www.twitter.com/pidecimal
+
+Se calcula que llegará al decimal 10 millones en 4166 días.
